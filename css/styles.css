@@ -46,6 +46,83 @@ nav {
 
 
 
+/* Banner  */
+
+.hero {
+    height: 100vh;
+    position: relative;
+  
+    background: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ), url("../img/banner.png");
+    background-size: cover;
+    color: #ffff;
+    
+  }
+  
+  .hero-container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-container-inner {
+    width: 50%;
+  }
+  
+  .hero-container-inner h1 {
+    font-size: 52px;
+    margin-bottom: 32px;
+    line-height: 1.05;
+  }
+
+  
+  
+  .hero-container-inner p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+    
+  }
+
+  .btn {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #21b2a6;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: #1a8d88; 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+}
+
+  
+  .hero-container-inner h2 {
+    font-size: 44px;
+    margin-bottom: 48px;
+  }
+
+
+.banner-text {
+    color: white;
+    font-size: 2rem; /* Adjust the font size as needed */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
 
 /* Product page */
 
@@ -100,9 +177,6 @@ nav {
 footer {
     background-color: #333;
     padding: 20px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     text-align: center;
     color: white;
 }
