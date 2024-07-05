@@ -123,9 +123,49 @@ nav {
 }
 
 
+/* Galarry */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.header {
+    font-size: 2em;
+    margin: 20px 0;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    flex: 1 1 200px;
+    margin: 10px;
+    max-width: 400px;
+    position: relative;
+}
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box:hover img {
+    transform: scale(1.05);
+}
+.box span {
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
 
 /* Product page */
-
 
 .product-page {
     display: flex;
